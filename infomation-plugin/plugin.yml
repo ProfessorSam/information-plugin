@@ -1,0 +1,17 @@
+name: info-plugin
+author: Professor_Sam
+version: '1.1.0'
+main: com.github.professorSam.main.Main
+api-version: 1.16
+commands:
+   discord:
+      description: Simpler /discord Command
+      permission: info.discord
+   live:
+      desciption: Simple Werbung fuer die Owner lol
+      permission: info.live
+permissions: 
+   info.discord:
+      default: true
+   info.live:
+      default: true
