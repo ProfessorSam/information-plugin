@@ -50,7 +50,7 @@ public class ScoreboardCreator implements Listener{
 		
 		//spoawn fix
 		
-		Location loc = new Location(Bukkit.getWorld("world"), 32.5, 61.5, 153.5, 0, 0);
+		Location loc = new Location(Bukkit.getWorld("world"), 32.5, 62, 153.5, 0, 0);
 		player.teleport(loc);
 		
 	}
