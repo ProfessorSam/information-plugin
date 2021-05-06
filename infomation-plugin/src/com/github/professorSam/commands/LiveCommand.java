@@ -13,9 +13,9 @@ public class LiveCommand implements CommandExecutor{
 		if(sender instanceof Player) {
 			Player player = (Player) sender;
 			player.sendMessage(" ");
-			player.sendMessage(Main.prefix + "§7Du möchtest §cGamedipro §7und §cProxxiten §7live sehen? Gerne!");
+			player.sendMessage(Main.prefix + "§7Du möchtest §cGamedipro §7und §cPoxxiten §7live sehen? Gerne!");
 			player.sendMessage(Main.prefix + "§cGamedipro §f- §9Twitch§7: https://twitch.tv/Gamedipro");
-			player.sendMessage(Main.prefix + "§cProxxiten §f- §4You§fTube§7: https://youtube.com/poxxiten");
+			player.sendMessage(Main.prefix + "§cPoxxiten §f- §4You§fTube§7: https://youtube.com/poxxiten");
 			player.sendMessage(" ");
 			
 		}
